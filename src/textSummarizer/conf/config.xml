@@ -1,0 +1,33 @@
+<configuration>
+	<modules>
+		<module name="Module Name">
+			<java-class-name>org.upb.ltfll.modules.moduleClassName
+			</java-class-name>
+			<init-params>
+				<param name="parameterName1">Parameter Value 1</param>
+				<param name="parameterName2">Parameter Value 2</param>
+			</init-params>
+		</module>
+	</modules>
+	<read-data-access-objects>
+		<object name="Object Name">
+			<java-class-name>org.upb.ltfll.dataaccess.objectClassName
+			</java-class-name>
+			<init-params>
+				<param name="Nume Parametru">Valoare Parametru</param>
+			</init-params>
+		</object>
+	</read-data-access-objects>
+	<evaluationWeights>
+		<noChars value="5" />
+		<noCharsUtterance value="5" />
+		<inDegreeNo value="5" />
+		<outDegreeNo value="5" />
+		<rankNo value="10" />
+		<eigenNo value="0" />
+		<inDegreeMark value="20" />
+		<outDegreeMark value="20" />
+		<rankMark value="20" />
+		<eigenMark value="0" />
+	</evaluationWeights>
+</configuration>
